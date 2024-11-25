@@ -71,7 +71,7 @@ public class GerenciadorRestaurante {
             String nomeItem = scanner.nextLine();
             System.out.print("Preço do item: ");
             double precoItem = scanner.nextDouble();
-            scanner.nextLine(); // Limpar buffer
+            scanner.nextLine();
 
             pedido.adicionarItem(new ItemMenu(nomeItem, precoItem));
 
